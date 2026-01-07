@@ -29,17 +29,17 @@ public class ContactService {
         repository.save(message);
 
         // 2. Envoi du mail
-        String subject = "📩 Nouveau message depuis le portfolio";
-        String body =
-                "Nom : " + dto.getName() + "\n"
-              + "Email : " + dto.getEmail() + "\n\n"
-              + "Message :\n"
-              + dto.getMessage();
+//        String subject = "📩 Nouveau message depuis le portfolio";
+//        String body =
+//                "Nom : " + dto.getName() + "\n"
+//              + "Email : " + dto.getEmail() + "\n\n"
+//              + "Message :\n"
+//              + dto.getMessage();
 
-        emailService.sendContactEmail(
-                "frederic.balcer@skynet.be",
-                subject,
-                body
-        );
+//        emailService.sendContactEmail(
+//                "frederic.balcer@skynet.be",
+//                subject,
+//                body
+//        );
     }
 }
